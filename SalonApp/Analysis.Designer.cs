@@ -133,7 +133,6 @@
             this.cmbMonths = new System.Windows.Forms.ComboBox();
             this.cmbYear = new System.Windows.Forms.ComboBox();
             this.cbAnnually = new System.Windows.Forms.CheckBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.flpLeftNav.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1432,23 +1431,12 @@
             this.cbAnnually.Visible = false;
             this.cbAnnually.CheckedChanged += new System.EventHandler(this.cbAnnually_CheckedChanged);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(484, 139);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(228, 45);
-            this.label9.TabIndex = 27;
-            this.label9.Text = "TEST REMOTE";
-            // 
             // Analysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1924, 1055);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.cbAnnually);
@@ -1634,6 +1622,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lbParodontologija;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label9;
     }
 }
