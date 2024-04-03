@@ -47,3 +47,7 @@ C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\bin\Debug\Newtonsoft.Js
 C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\bin\Debug\Twilio.xml
 C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\obj\Debug\SalonApp.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\bin\Debug\SalonApp.exe.manifest
+C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\bin\Debug\SalonApp.application
+C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\obj\Debug\SalonApp.exe.manifest
+C:\Users\Lenovo\Documents\Leo\SalonApp\SalonApp\SalonApp\obj\Debug\SalonApp.application
