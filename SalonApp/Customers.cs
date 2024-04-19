@@ -617,5 +617,10 @@ namespace SalonApp
             }
             loadPage();
         }
+
+        private void btnComparativeAnalysis_Click(object sender, EventArgs e)
+        {
+            Dashboard.openNewTab(currentForm: this, desiredForm: new ComparativeAnalysis());
+        }
     }
 }

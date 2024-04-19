@@ -199,11 +199,6 @@ namespace SalonApp
             lbDate.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
         }
 
-        public void btnPocetna_Click(object sender, EventArgs e)
-        {
-          
-        }
-
         public void btnEmployees_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -249,6 +244,18 @@ namespace SalonApp
             //UpdateControlPositions();
         }
 
+        public static void openNewTab(Form currentForm, Form desiredForm)
+        {
+            currentForm.Hide();
+            desiredForm.ShowDialog();
+            currentForm.Close();
+        }
+
+        private void btnComparativeAnalysis_Click(object sender, EventArgs e)
+        {
+            openNewTab(this, new ComparativeAnalysis());
+        }
+
         //private void UpdateControlPositions()
         //{
         //    // Set the percentage position you want (50% from the left, 50% from the top).
@@ -263,6 +270,6 @@ namespace SalonApp
         //    dataGridView1.Location = new Point(newX, newY);
         //}
 
-        
+
     }
 }

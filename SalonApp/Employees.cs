@@ -478,5 +478,10 @@ namespace SalonApp
 	                        CONVERT(smallint,e.NumberOfClients)";
             Appointments.exportToExcel(query, "Вработени");
         }
+
+        private void btnComparativeAnalysis_Click(object sender, EventArgs e)
+        {
+            Dashboard.openNewTab(currentForm: this, desiredForm: new ComparativeAnalysis());
+        }
     }
 }

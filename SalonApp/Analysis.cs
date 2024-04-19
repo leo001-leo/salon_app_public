@@ -213,15 +213,12 @@ namespace SalonApp
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            
-            if(dtpTo.Value.Date < dtpFrom.Value.Date)
+            if (dtpTo.Value.Date < dtpFrom.Value.Date)
             {
                 MessageBox.Show("Вредноста во филтерот \"До\" треба да е поголема од \"Од\"");
             }
             else
             {
-                //int godina = Convert.ToInt32(cmbYear.SelectedItem);
-
                 string sql = string.Format("select count(distinct Id) as Count from Appointment where CONVERT(Date,StartTime)>=@DateFrom and CONVERT(Date,StartTime)<=@DateTo and Status='A'");
                 countServices(sql, lbNumAppointments);
 
@@ -270,9 +267,12 @@ namespace SalonApp
                                             on cat.Id=value
                                             where CONVERT(date,app.StartTime)>=@DateFrom and CONVERT(date,app.FinishTime)<=@DateTo and cat.Id>=18 and cat.Id <= 21 and app.Status='A'");
                 countServices(sql8, lbRestavrativnaStomatologija);
-
             }
-            
+        }
+
+        private void btnComparativeAnalysis_Click(object sender, EventArgs e)
+        {
+            Dashboard.openNewTab(currentForm: this, desiredForm: new ComparativeAnalysis());
         }
     }
 }
